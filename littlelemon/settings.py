@@ -82,9 +82,12 @@ WSGI_APPLICATION = "littlelemon.wsgi.application"
 DATABASES = {
     "default": {
         "ENGINE": "django.db.backends.mysql",
-        "OPTIONS": {
-            "read_default_file": str(BASE_DIR / "mysql.cnf"),
-        },
+        "NAME": "db_littlelemon",
+        "USER": "admindjango",
+        "PASSWORD": "employee@123!",
+        "HOST": "127.0.0.1",
+        "PORT": "3306",
+        # "OPTIONS": {"read_default_file": str(BASE_DIR / "mysql.cnf")},
     },
 }
 
