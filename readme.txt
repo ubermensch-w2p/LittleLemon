@@ -11,6 +11,8 @@ To Check:
 
 4. Booking a table
     http://127.0.0.1:8000/restaurant/booking/tables/
+    http://127.0.0.1:8000/restaurant/booking/tables/{bookingId}/
 
 5. CRUD operations vis-a-vis Menu
     http://127.0.0.1:8000/restaurant/menu/
+    http://127.0.0.1:8000/restaurant/menu/{menuId}/
